@@ -7,8 +7,7 @@ Sistema Web que realiza funções de uma Calculadora
  
  Dentro do diretório \Calculadora abra o terminal (cmd).
  
- Execute os comandos: gradle build
-                      gradle wrapper
+ Execute os comandos: *gradle build* e logo após *gradle wrapper*
  
  Depois vá para \Calculadora\build\libs e copie o arquivo .war(arquivo de implementação)
  
