@@ -1,5 +1,6 @@
 # Calculadora
 Sistema Web que realiza funções de uma Calculadora
+ 
  Para executar o projeto faça o download do mesmo.
  
  Extraia os arquivos.
@@ -7,9 +8,11 @@ Sistema Web que realiza funções de uma Calculadora
  Dentro do diretório \Calculadora abra o terminal (cmd).
  
  Execute os comandos: gradle build
+                      
                       gradle wrapper
  
  Depois vá para \Calculadora\build\libs e copie o arquivo .war(arquivo de implementação)
+ 
  Logo após cole o arquivo .war na pasta webapps do ApacheTomcat C:\Apache\apache-tomcat-8.5.56\webapps
  
  Agora vá para C:\Apache\apache-tomcat-8.5.56\bin e abra o terminal e execute o comando: startup.bat
