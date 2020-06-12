@@ -1,0 +1,69 @@
+<!DOCTYPE hmtl>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" type="text/css" href="css/estilo1.css"/>
+		<script type="text/javascript" src="js/identificacao.js"></script>
+		<title>Calculadora</title>
+	</head>
+	
+	<body>
+		<div id="div1">
+		
+			<div class="content">
+			
+			<header class="header">
+				<h1>Calculadora</h1>
+				<a href="index.html"><img src="icon/icons8-página-inicial-24.png">Página Inicial</a>
+			</header>
+			
+				<div class="content-inside">
+					<h3>Calculadora:</h3>
+					
+					<fieldset id="fieldset">
+						<legend> Calcular:</legend>
+						
+						<input type="text" id="num1" placeholder="num1">
+						<br>
+						<input type="text" id="num2" placeholder="num2">
+						<br>
+						<input type="button" value="+" onclick="calcular(this)">
+						<input type="button" value="-" onclick="calcular(this)">
+						<input type="button" value="*" onclick="calcular(this)">
+						<input type="button" value="/" onclick="calcular(this)">
+						<br>
+						<p>Resultado: </p><p id="demo1"></p>
+						<br>
+						<br>
+						<input type="text" id="num3" placeholder="num3">
+						<br>
+						<input type="text" id="num4" placeholder="num4">
+						<br>
+						<input type="button" value="^" onclick="pot()">
+						<input type="button" value="√" onclick="rad()">
+						<br>
+						<p>Resultado: </p><p id="demo"></p>
+						
+					</fieldset>
+					
+					<div class="content-inside">
+					<h3>Consultar Histórico:</h3>
+					
+					<fieldset id="fieldset">
+						<legend> Histórico:</legend>
+						
+						<button id="button2" onclick="historico();" style="margin-top: 10px">Consultar</button>
+						
+					</fieldset>
+					
+				</div>
+				
+			</div>
+
+			<footer class="footer">
+			  &copy; Copyright 2019 
+			</footer>
+			
+		</div>
+	</body>
+</html>
